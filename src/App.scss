@@ -1,6 +1,5 @@
-
 // default font
-$fontFamily: "Roboto";
+$fontFamily: 'Roboto';
 
 // var
 $minWidth: 320px;
@@ -12,12 +11,13 @@ $md3: 767.98;
 $md4: 479.98;
 
 .App {
-  
-}
-
-._container {
   max-width: $maxWidthContainer;
   margin: 0 auto;
   padding: 0 20px;
 }
 
+// ._container {
+//   max-width: $maxWidthContainer;
+//   margin: 0 auto;
+//   padding: 0 20px;
+// }
