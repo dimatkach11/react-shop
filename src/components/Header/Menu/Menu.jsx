@@ -20,9 +20,16 @@ const Menu = () => {
     </li>
   ))
   return (
-    <nav className={style.menu__body}>
-      <ul className={style.menu__list + ' ' + style.menu}>{menuLinks}</ul>
-    </nav>
+    <>
+      <div className={style.menu__icon + ' ' + style.iconMenu}>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav className={style.menu__body}>
+        <ul className={style.menu__list + ' ' + style.menu}>{menuLinks}</ul>
+      </nav>
+    </>
   )
 }
 

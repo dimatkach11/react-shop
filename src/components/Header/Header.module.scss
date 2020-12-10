@@ -1,0 +1,10 @@
+@import '../../App.scss';
+
+.header {
+  background: url(../../assets/img/header/background.png) 50% 0 no-repeat;
+  &__container {
+    max-width: $maxWidthContainer;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+}

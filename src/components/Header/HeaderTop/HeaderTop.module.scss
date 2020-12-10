@@ -1,0 +1,51 @@
+@import '../../../App.scss';
+
+.header__top {
+}
+.topHeader {
+  &__content {
+    display: flex;
+    align-items: center;
+  }
+  &__column {
+    flex: 0 1 50%;
+    &:nth-child(2) {
+      flex: 0 0 190px; // in questo modo i due column laterali si posizionano in modo simmetrico a destra e a sinistra rispetto alla colonna principale con dimensione fissa
+      align-self: flex-start; // per toglieregli la proprietà center e mettere la geometria da soli attraverso text align e padding ecc..
+      text-align: center;
+      padding-top: 30px;
+    }
+  }
+  &__menu {
+  }
+  &__logo {
+    &_text {
+      margin-top: 7px;
+      line-height: 20px;
+      font-size: 18px;
+      letter-spacing: 1px;
+      word-spacing: 3px;
+      font-family: $fontFamily;
+      font-weight: 700;
+      color: #fff;
+    }
+  }
+  &__contacts {
+  }
+}
+
+.menu {
+}
+
+.contactsHeader {
+  &__column {
+  }
+  &__item {
+  }
+  &__item_icon {
+  }
+  &__label {
+  }
+  &__phone {
+  }
+}

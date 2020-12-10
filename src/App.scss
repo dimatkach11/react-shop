@@ -1,4 +1,6 @@
 // default font
+@import './index.scss';
+
 $fontFamily: 'Roboto';
 
 // var
@@ -9,12 +11,6 @@ $md1: $maxWidthContainer + 12px;
 $md2: 991.98;
 $md3: 767.98;
 $md4: 479.98;
-
-.App {
-  max-width: $maxWidthContainer;
-  margin: 0 auto;
-  padding: 0 20px;
-}
 
 // ._container {
 //   max-width: $maxWidthContainer;

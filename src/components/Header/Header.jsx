@@ -6,8 +6,10 @@ import HeaderTop from './HeaderTop/HeaderTop'
 const Header = () => {
   return (
     <header className={style.header}>
-      <HeaderTop />
-      <HeaderBottom />
+      <div className={style.header__container}>
+        <HeaderTop />
+        <HeaderBottom />
+      </div>
     </header>
   )
 }
