@@ -1,0 +1,39 @@
+@import '../../../App.scss';
+
+.header__bottom {
+}
+.bottomHeader {
+  &__content_container {
+    display: flex;
+  }
+  &__column {
+    flex: 0 1 50%;
+  }
+  &__actions {
+  }
+}
+
+.actionsHeader {
+  display: flex;
+  height: 63px;
+  align-items: center;
+  li {
+    margin-right: 54px;
+    @media (max-width: $maxWidthContainer) {
+      margin-right: 54px / $maxWidthContainer * 100vw;
+    }
+  }
+}
+
+.bottomHeader {
+  &__info {
+  }
+  &__column {
+  }
+  &__callback {
+  }
+  &__schedule {
+  }
+  &__cart {
+  }
+}

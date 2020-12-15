@@ -5,28 +5,32 @@
 .menu__body {
 }
 .menu__list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  // width: 80%;
+  // grid-template-rows: 1fr 1fr;
+  grid-template-columns: 110px 130px 200px;
   li {
-    flex: 0 1 20%;
+    margin: 1px 0;
   }
 }
 .menu__link {
   // width: 99px;
   font-family: 'Play';
   font-weight: 700;
-  height: 27px;
+  min-height: 27px;
   text-decoration: underline;
   color: #fff;
-  white-space: nowrap;
+  // white-space: nowrap;
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  padding: 0 22px;
+  padding: 5px 22px;
+  transition: all 0.3s ease 0s;
   @media (min-width: $md2+px) {
     &:hover {
       border-radius: 20px;
       background-color: #068292;
+      text-decoration: underline;
     }
   }
 }

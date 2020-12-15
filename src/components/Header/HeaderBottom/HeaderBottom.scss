@@ -1,0 +1,34 @@
+@import '../../../App.scss';
+
+.actionsHeader .login {
+  background: url('../../../assets/img/header/icons/enter.png') left no-repeat;
+  line-height: 24px;
+  padding-left: 36px;
+  color: #999999;
+}
+
+.actionsHeader .login span {
+  border-bottom: 1px dotted;
+}
+
+.actionsHeader .signup {
+  background: url('../../../assets/img/header/icons/submit.png') left no-repeat;
+  line-height: 24px;
+  padding-left: 36px;
+  color: #1ab9ce;
+}
+
+.actionsHeader .signup span {
+  border-bottom: 1px dotted;
+}
+.actionsHeader .email {
+  background: url('../../../assets/img/header/icons/email.png') left no-repeat;
+  line-height: 24px;
+  padding-left: 36px;
+  color: #1ab9ce;
+  font-size: 13px;
+}
+
+.actionsHeader .email span {
+  border-bottom: 1px dotted;
+}

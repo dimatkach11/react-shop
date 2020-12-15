@@ -6,6 +6,9 @@
   &__content {
     display: flex;
     align-items: center;
+    height: 90px;
+    li {
+    }
   }
   &__column {
     flex: 0 1 50%;

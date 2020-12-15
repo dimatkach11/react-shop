@@ -1,5 +1,6 @@
 import React from 'react'
 import style from './HeaderBottom.module.scss'
+import './HeaderBottom.scss'
 
 const HeaderBottom = () => {
   const state = {
@@ -13,8 +14,8 @@ const HeaderBottom = () => {
   const bottomHeaderLeftSection = Object.keys(
     state.bottomHeaderLeftSectionText
   ).map((key) => (
-    <li key={key}>
-      <a href="/" className={style.actionsHeader__ + key}>
+    <li key={key} className="actionsHeader">
+      <a href="/" className={style.actionsHeader + ' ' + key}>
         <span>{state.bottomHeaderLeftSectionText[`${key}`]}</span>
       </a>
     </li>
